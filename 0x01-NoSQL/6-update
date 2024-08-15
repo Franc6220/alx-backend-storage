@@ -1,0 +1,6 @@
+// my comment
+db.school.updateMany(
+  { name: "Holberton school" }, // Query to match documents
+  { $set: { address: "972 Mission street" } } // Update operation to add the address field
+);
+

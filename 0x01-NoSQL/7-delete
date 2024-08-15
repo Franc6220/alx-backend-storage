@@ -1,0 +1,5 @@
+// my comment
+db.school.deleteMany(
+  { name: "Holberton school" } // Query to match documents
+);
+
